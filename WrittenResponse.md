@@ -163,11 +163,12 @@ Describes two calls to the procedure identified in written response 3c. Each cal
 
 First call:
 
-DisplayQuoteOptions( //what do i test here?// )
+// emptyList contains no elements
+DisplayQuoteOptions(emptyList)
 
 Second call:
 
-DisplayQuoteOptions("none")
+DisplayQuoteOptions(null)
 
 ### 3d ii.
 
@@ -175,18 +176,18 @@ Describes what condition(s) is being tested by each call to the procedure
 
 Condition(s) tested by the first call:
  
-**TODO: Complete this section**
+Tests what happens if the List contains no elements
 
 Condition(s) tested by the second call:
 
-**TODO: Complete this section**
+Tests if quoteNames does not exist
 
 ### 3d iii.
 
 Result of the first call:
 
-**TODO: Complete this section**
+The result of emptyList will make the program read "The list of options must contain at least 1 option."
 
 Result of the second call:
 
-**TODO: Complete this section**
+The result of calling nothing will make the program read "List of options may not be null."
