@@ -8,16 +8,19 @@ Principles [Student Handout](../support/ap-csp-student-task-directions.pdf).
 Provide a written response that does all three of the following:
 
 ### 3a i.
+Describes the overall purpose of the program
 
 Quote Generator displays a quote depending on what type of quote the player chooses. The player can choose from different catagories of quotes.
 
 
 ### 3a ii.
+Describes what functionality of the program is demonstrated in the video.
 
-The player is given a quote according to what they want. 
+The player is shown a quote according to a topic they choose. 
 
 
 ### 3a iii.
+Describes the input and output of the program demonstrated in the video.
 
 The input is a number according to the category the player wants, and the output is a random quote from that topic. 
 
@@ -65,7 +68,7 @@ The list is stored in the variable quoteNames
 
 Describes what the data contained in the list represents in your program
 
-The list contains the category name's of the different types of quotes. 
+The list contains the category names of the different types of quotes. 
 
 ### 3b v.
 
@@ -115,7 +118,7 @@ The first program code segment must be a student-developed procedure that:
             {
                 Console.Error.WriteLine("You did not enter a number.");
             }
-            else if (userChoice > 3)
+            else if (userChoice > quoteNames.Count)
             {
                 Console.Error.WriteLine("That number was greater than the options displayed.");
             }
@@ -124,7 +127,7 @@ The first program code segment must be a student-developed procedure that:
                 Console.Error.WriteLine("That number was less than the options displayed.");
             }
             }
-            while (userChoice > 3 || userChoice <= 0);
+            while (userChoice > quoteNames.Count || userChoice <= 0);
             return userChoice;
         }
 ```
@@ -151,7 +154,7 @@ Explains in detailed steps how the algorithm implemented in the identified proce
 1. DisplayQuoteOptions iterates through each name in the list quoteNames to write a number with it. 
 2. It asks the user to enter a number that corresponds to the choice they want. 
 3. Then my method converts the user input into an integer.
-4. This repeats if the user input is greater than 3 or less than/equal to zero because this is outside the number of options I have available. 
+4. This repeats if the user input is a number greater than the number of options or less than/equal to zero because this is outside the number of options I have available. 
 
 ## 3d
 

@@ -83,25 +83,24 @@ namespace QuoteGenerator
             }
 
             int userChoice;
-            do
+            do{
+            Console.Write("Enter the number in front of your choice:");
+            string input = Console.ReadLine();
+            bool isANumber = int.TryParse(input, out userChoice);
+            if (isANumber == false)
             {
-                Console.Write("Enter the number in front of your choice:");
-                string input = Console.ReadLine();
-                bool isANumber = int.TryParse(input, out userChoice);
-                if (isANumber == false)
-                {
-                    Console.Error.WriteLine("You did not enter a number.");
-                }
-                else if (userChoice > 3)
-                {
-                    Console.Error.WriteLine("That number was greater than the options displayed.");
-                }
-                else if (userChoice <= 0)
-                {
-                    Console.Error.WriteLine("That number was less than the options displayed.");
-                }
+                Console.Error.WriteLine("You did not enter a number.");
             }
-            while (userChoice > 3 || userChoice <= 0);
+            else if (userChoice > quoteNames.Count)
+            {
+                Console.Error.WriteLine("That number was greater than the options displayed.");
+            }
+            else if (userChoice <= 0)
+            {
+                Console.Error.WriteLine("That number was less than the options displayed.");
+            }
+            }
+            while (userChoice > quoteNames.Count || userChoice <= 0);
             return userChoice;
         }
 
