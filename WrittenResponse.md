@@ -10,13 +10,12 @@ Provide a written response that does all three of the following:
 ### 3a i.
 Describes the overall purpose of the program
 
-Quote Generator displays a quote depending on what type of quote the player chooses. The player can choose from different catagories of quotes.
-
+The purpose of the program is to give a person a random quote depending on their mood. 
 
 ### 3a ii.
 Describes what functionality of the program is demonstrated in the video.
 
-The player is shown a quote according to a topic they choose. 
+Quote Generator displays a quote depending on what type of quote the player chooses. The player can choose from different catagories of quotes.
 
 
 ### 3a iii.
@@ -73,10 +72,10 @@ The list contains the category names of the different types of quotes.
 ### 3b v.
 
 Explains how the selected list manages complexity in your program code by
-explaining why your program code could not be written, or how it would be
-written differently, if you did not use the list.
+explaining why your program code could not be written, or **how it would be
+written differently**, if you did not use the list.
 
-Without this list, I would have to individually program a number to be assigned to a new category if I wanted to add more options. With my list, I can easily add more sections that will automatically have a corresponding number to it that the player can enter. 
+Without this list, I would have to individually program a number to be assigned to a new category if I wanted to add more options. I would have to manually add a bunch of if and else statements for each category. With my list, I can easily add more sections that will automatically have a corresponding number to it that the player can enter.
 
 ## 3c.
 
@@ -144,7 +143,7 @@ The second program code segment must show where your student-developed procedure
 
 Describes in general what the identified procedure does and how it contributes to the overall functionality of the program.
 
-This method numbers each element in quoteNames. Then it displays the number and topic and allows the player to enter the number they want. It throws exceptions if the player's input is less than or more than the number of options. 
+This method numbers each element in quoteNames. Then it displays the number and topic and allows the player to enter the number they want. It throws exceptions if the player's input is less than or more than the number of options. This procedure is essential to my program because it displays the options for the player's input. After choosing a topic using this method, the program accesses a list with all the quotes in that topic and displays one. 
 
 ### 3c iv.
 
