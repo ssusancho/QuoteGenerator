@@ -10,7 +10,7 @@ Provide a written response that does all three of the following:
 ### 3a i.
 Describes the overall purpose of the program
 
-The purpose of the program is to give a person a random quote depending on their mood. 
+The purpose of the program is to give a person a random quote depending on their mood for entertainment.
 
 ### 3a ii.
 Describes what functionality of the program is demonstrated in the video.
@@ -143,7 +143,7 @@ The second program code segment must show where your student-developed procedure
 
 Describes in general what the identified procedure does and how it contributes to the overall functionality of the program.
 
-This method numbers each element in quoteNames. Then it displays the number and topic and allows the player to enter the number they want. It throws exceptions if the player's input is less than or more than the number of options. This procedure is essential to my program because it displays the options for the player's input. After choosing a topic using this method, the program accesses a list with all the quotes in that topic and displays one. 
+This method numbers each element in quoteNames. Then it displays the number and topic and allows the player to enter the number they want. It displays an error if the player's input is less than or more than the number of options. This procedure is essential to my program because it displays the options for the player's input. After choosing a topic using this method, the program accesses a list with all the quotes in that topic and displays one. 
 
 ### 3c iv.
 
@@ -182,7 +182,7 @@ Tests what happens if the List contains no elements
 
 Condition(s) tested by the second call:
 
-Tests if quoteNames does not exist
+Tests if quoteNames is null
 
 ### 3d iii.
 
