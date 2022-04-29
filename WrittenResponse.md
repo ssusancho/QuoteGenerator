@@ -34,10 +34,10 @@ used to manage complexity in your program.
 The first program code segment must show how data have been stored in the list.
 
 ```csharp
-           List<string> quoteNames = new List<string>();
-            quoteNames.Add("Funny");
-            quoteNames.Add("Sad");
-            quoteNames.Add("Inspirational");
+List<string> quoteNames = new List<string>();
+quoteNames.Add("Funny");
+quoteNames.Add("Sad");
+quoteNames.Add("Inspirational");
 ```
 
 ### 3b ii.
@@ -48,11 +48,11 @@ in the list, as part of fulfilling the program's purpose.
 
 ```csharp
 foreach (string name in quoteNames)
-            {
-                
-                Console.WriteLine($"{ix}. {name}");
-                ix = ix + 1;
-            }
+{
+    
+    Console.WriteLine($"{ix}. {name}");
+    ix = ix + 1;
+}
 ```
 
 ### 3b iii.
@@ -92,43 +92,43 @@ The first program code segment must be a student-developed procedure that:
 - [ ] Implements an algorithm that includes sequencing, selection, and iteration
 
 ```csharp
- public static int DisplayQuoteOptions(List<string> quoteNames)
-        {
+public static int DisplayQuoteOptions(List<string> quoteNames)
+{
 
-            if (quoteNames == null) throw new ArgumentException("List of options may not be null.");
-            if (quoteNames.Count == 0) throw new ArgumentException("The list of options must contain at least 1 option.");
+    if (quoteNames == null) throw new ArgumentException("List of options may not be null.");
+    if (quoteNames.Count == 0) throw new ArgumentException("The list of options must contain at least 1 option.");
 
-            
+    
 
-            int ix = 1;
-            foreach (string name in quoteNames)
-            {
-                
-                Console.WriteLine($"{ix}. {name}");
-                ix = ix + 1;
-            }
+    int ix = 1;
+    foreach (string name in quoteNames)
+    {
+        
+        Console.WriteLine($"{ix}. {name}");
+        ix = ix + 1;
+    }
 
-            int userChoice;
-            do{
-            Console.Write("Enter the number in front of your choice:");
-            string input = Console.ReadLine();
-            bool isANumber = int.TryParse(input, out userChoice);
-            if (isANumber == false)
-            {
-                Console.Error.WriteLine("You did not enter a number.");
-            }
-            else if (userChoice > quoteNames.Count)
-            {
-                Console.Error.WriteLine("That number was greater than the options displayed.");
-            }
-            else if (userChoice <= 0)
-            {
-                Console.Error.WriteLine("That number was less than the options displayed.");
-            }
-            }
-            while (userChoice > quoteNames.Count || userChoice <= 0);
-            return userChoice;
-        }
+    int userChoice;
+    do{
+    Console.Write("Enter the number in front of your choice:");
+    string input = Console.ReadLine();
+    bool isANumber = int.TryParse(input, out userChoice);
+    if (isANumber == false)
+    {
+        Console.Error.WriteLine("You did not enter a number.");
+    }
+    else if (userChoice > quoteNames.Count)
+    {
+        Console.Error.WriteLine("That number was greater than the options displayed.");
+    }
+    else if (userChoice <= 0)
+    {
+        Console.Error.WriteLine("That number was less than the options displayed.");
+    }
+    }
+    while (userChoice > quoteNames.Count || userChoice <= 0);
+    return userChoice;
+}
 ```
 
 ### 3c ii.
