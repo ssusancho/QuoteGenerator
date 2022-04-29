@@ -1,0 +1,15 @@
+/Users/susancho/Documents/QuoteGenerator/bin/Debug/net5.0/QuoteGenerator.deps.json
+/Users/susancho/Documents/QuoteGenerator/bin/Debug/net5.0/QuoteGenerator.runtimeconfig.json
+/Users/susancho/Documents/QuoteGenerator/bin/Debug/net5.0/QuoteGenerator.runtimeconfig.dev.json
+/Users/susancho/Documents/QuoteGenerator/bin/Debug/net5.0/QuoteGenerator.dll
+/Users/susancho/Documents/QuoteGenerator/bin/Debug/net5.0/ref/QuoteGenerator.dll
+/Users/susancho/Documents/QuoteGenerator/bin/Debug/net5.0/QuoteGenerator.pdb
+/Users/susancho/Documents/QuoteGenerator/obj/Debug/net5.0/QuoteGenerator.csproj.AssemblyReference.cache
+/Users/susancho/Documents/QuoteGenerator/obj/Debug/net5.0/QuoteGenerator.GeneratedMSBuildEditorConfig.editorconfig
+/Users/susancho/Documents/QuoteGenerator/obj/Debug/net5.0/QuoteGenerator.AssemblyInfoInputs.cache
+/Users/susancho/Documents/QuoteGenerator/obj/Debug/net5.0/QuoteGenerator.AssemblyInfo.cs
+/Users/susancho/Documents/QuoteGenerator/obj/Debug/net5.0/QuoteGenerator.csproj.CoreCompileInputs.cache
+/Users/susancho/Documents/QuoteGenerator/obj/Debug/net5.0/QuoteGenerator.dll
+/Users/susancho/Documents/QuoteGenerator/obj/Debug/net5.0/ref/QuoteGenerator.dll
+/Users/susancho/Documents/QuoteGenerator/obj/Debug/net5.0/QuoteGenerator.pdb
+/Users/susancho/Documents/QuoteGenerator/obj/Debug/net5.0/QuoteGenerator.genruntimeconfig.cache
